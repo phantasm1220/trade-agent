@@ -1,0 +1,12 @@
+# 環境変数（APIキー・シークレット）- 絶対にcommitしない
+.env
+.env.local
+.env*.local
+pc-agent/.env
+
+# 依存パッケージ
+node_modules/
+
+# ビルド成果物
+.next/
+out/
